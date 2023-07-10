@@ -1,0 +1,40 @@
+body{
+    background-image: url(https://images.unsplash.com/flagged/photo-1556746834-cbb4a38ee593?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=872&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+label , #button{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+
+}
+#button { 
+    margin-top: 5px;
+}
+#button:hover{
+    background-color: black;
+    color: white;
+    
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="file"],
+input[type="submit"]{
+    display: block;
+    width:80%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid rgb(30, 25, 25);
+    font-size: 16px;
+    background-color: transparent;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form  id= "form" action="https://httpbin.org/get" method="get" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Health Form</legend>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="Shreyas"
+            required>
+            <label for="age">Age:</label>
+            <input type="number" name="age" id="age" placeholder="19"
+            required>
+            <label for="weight">Weight:</label>
+            <input type="number" class="weight" id="weight" placeholder="in KGs"
+            required>
+            <label for="email">Email id:</label>
+            <input type="email" class="email" id="email" placeholder="xyz@gmail.com"
+            required>
+            <label for="file">Upload a file:</label>
+            <input type="file" class="file" id="file" accept=".txt, .pdf, .doc">
+            <button id="button" type="submit">Submit</button>
+            <div id="thankyou">
+                <h3>Thank you</h3>
+
+            </div>
+        
+        </fieldset>
+       
+    </form>
+    
+</body>
+</html>
